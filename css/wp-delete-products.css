@@ -1,0 +1,22 @@
+.wp-delete-products-progress {
+    background-color: #ccc;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.wp-delete-products-progress-bar {
+    height: 100%;
+    background-color: #0073aa;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 0.5s ease-in-out;
+}
+
+.wp-delete-products-progress-label {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+}
